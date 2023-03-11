@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./calc.js" defer></script>
+    <script src="./theme.js" defer></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculator JS</title>
+</head>
+<body class="darkTheme">
+    <div class="content">
+        <header>
+            <h1>Making life easier ;) </h1>
+            <button id="theme">🔆 Light Theme</button> <!-- ✨ -->
+        </header>
+
+        <div class="top">
+            <input type="text" id="input" readonly> 
+    
+            <button id="copy">Copy</button>
+        </div>
+
+        <div id="keys">
+            <button class="charKey" id="clear">C</button>
+            <button class="charKey keys" id="(">(</button>
+            <button class="charKey keys" value=")" id=")">)</button>
+            <button class="charKey keys" id="/" >/</button>
+            <button class="charKey keys" id="7">7</button>
+            <button class="charKey keys" id="8">8</button>
+            <button class="charKey keys" id="9">9</button>
+            <button class="charKey keys" id="*">*</button>
+            <button class="charKey keys" id="4">4</button>
+            <button class="charKey keys" id="5">5</button>
+            <button class="charKey keys" id="6">6</button>
+            <button class="charKey keys" id="-">-</button>
+            <button class="charKey keys" id="1">1</button>
+            <button class="charKey keys" id="2">2</button>
+            <button class="charKey keys" id="3">3</button>
+            <button class="charKey keys" id="+">+</button>
+            <button class="charKey keys" id="0">0</button>
+            <button class="charKey keys" id=".">.</button>
+            <button class="charKey keys" id="%">mod</button>
+            <button class="charKey" id="equal">=</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Made by Breno Kleine Bernstein 2023</p>
+
+        <div class="links">
+            <a href="https://github.com/brenokleine" class="fa fa-github-square" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+    </footer> 
+    
+    
+</body>
+</html>
